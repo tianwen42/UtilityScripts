@@ -45,3 +45,7 @@
 
 - Rename the files in the folder with sequential incremental naming and categorize them by type. Easy to manage data collections, etc...，refer to [NamedArchive](example\NamedArchive)
 - 将文件夹内的文件按顺序自增命名，并按类型归档，便于管理数据集，参考[NamedArchive](example\NamedArchive)
+
+
+
+## 3.to be continued.etc..

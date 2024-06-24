@@ -6,17 +6,21 @@ set i=1
 set "extensions="
 for %%A in (*) do (
     set "ext=%%~xA"
-    if "!extensions!" == "" (
-        set "extensions=!ext!"
-    ) else (
-        echo !extensions! | findstr /C:"!ext!" >nul || set "extensions=!extensions! !ext!"
+    if not "%%~xA" == ".bat" (
+        if "!extensions!" == "" (
+            set "extensions=!ext!"
+        ) else (
+            echo !extensions! | findstr /C:"!ext!" >nul || set "extensions=!extensions! !ext!"
+        )
     )
 )
 
 :: Rename each type in turn
 for %%E in (%extensions%) do (
     set i=1
-    if not exist "%%~E" mkdir "%%~E"
+    if not exist "%%~E" (
+        mkdir "%%~E"
+    )   
     for %%F in (*%%E) do (
         if /I not "%%~xF" == ".bat" (
             move "%%F" "%%~E\img!i!%%~xE"  
