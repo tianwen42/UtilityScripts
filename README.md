@@ -18,8 +18,8 @@ Some daily utility script, divided into Python Version and Bat Version
 
 ### features
 
-- **One-Click to initialize the project directory** on windows，Easy to manage structured projects，refer to [my_project](example\my_project)
-- 一键初始化项目结构的脚本，方便管理结构化项目，参考[my_project](example\my_project)
+- **One-Click to initialize the project directory** on windows，Easy to manage structured projects，refer to [my_project](example/my_project)
+- 一键初始化项目结构的脚本，方便管理结构化项目，参考[my_project](example/my_project)
 
 > 1. **src**：包含项目的源代码文件。
 > 2. **docs**：包含项目的文档，如使用手册、API 文档等。
@@ -39,14 +39,14 @@ Some daily utility script, divided into Python Version and Bat Version
 
 根据项目归档，自行配置结构，**希望养成良好的归档命名习惯**
 
-详情请参考 ·[目录说明](example\my_project\intro.md)
+详情请参考 ·[目录说明](example/my_project/intro.md)
 
 
 
 ## 2.NamedArchive.bat 命名档案
 
-- Rename the files in the folder with sequential incremental naming and categorize them by type. Easy to manage data collections, etc...，refer to [NamedArchive](example\NamedArchive)
-- 将文件夹内的文件按顺序自增命名，并按类型归档，便于管理数据集，参考[NamedArchive](example\NamedArchive)
+- Rename the files in the folder with sequential incremental naming and categorize them by type. Easy to manage data collections, etc...，refer to [NamedArchive](example/NamedArchive)
+- 将文件夹内的文件按顺序自增命名，并按类型归档，便于管理数据集，参考[NamedArchive](example/NamedArchive)
 
 
 
