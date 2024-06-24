@@ -1,5 +1,6 @@
-# AwesomeTools
-一些日常的小工具，分为Python版本和Bash版本
+# UtilityScript
+一些实用的小工具，分为Python版本和Bat版本
+Some daily utility script, divided into Python Version and Bat Version
 
 1. Copy xxx.bat/py to taget folder
 2. Run Scripts
@@ -8,7 +9,7 @@
 >
 > python xxx.py
 
-> - Bash
+> - Bat
 >
 > click xxx.bat  Or  .\xxx.bat
 
