@@ -50,4 +50,11 @@ Some daily utility script, divided into Python Version and Bat Version
 
 
 
-## 3.to be continued.etc..
+## 3.clearBuild.bat 
+
+- **One-Click to Clear the build directory and subdirectory**，refer to [clearBuild](example/clearBuild)
+- 一键清除build目录和子build目录，参考 [clearBuild](example/clearBuild)
+
+
+
+## 4.to be continued.etc..
